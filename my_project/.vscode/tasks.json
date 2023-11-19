@@ -34,7 +34,7 @@
             "label": "Build OpenGL Program",
             "type": "shell",
             "command": "gcc",
-            "args": ["-o", "rose.c", "main.c","hexagonal.c", "-lGL", "-lglut"],
+            "args": ["-o","transformation.c","line.c","animations.c", "rose.c","hut.c", "main.c","hexagonal.c","-lGL", "-lglut"],
             "group": {
                 "kind": "build",
                 "isDefault": true
